@@ -25,11 +25,7 @@ pipeline {
             }
         }
 
-        stage('Run Application') {
-            steps {
-                bat 'mvn exec:java'
-            }
-        }
+      
     }
 
     post {
